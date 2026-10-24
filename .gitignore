@@ -1,3 +1,5 @@
 .vs/
 obj/
 dist/
+*.vcxproj.user
+*.aps
