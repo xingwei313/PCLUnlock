@@ -45,11 +45,13 @@
     <Compile Include="HookCompDetail.cs" />
     <Compile Include="HookDownload.cs" />
     <Compile Include="HookModpack.cs" />
+    <Compile Include="HookUpdateHint.cs" />
     <Compile Include="Injector.cs" />
     <Compile Include="LogBuffer.cs" />
     <Compile Include="Native.cs" />
     <Compile Include="ReflectionUtil.cs" />
     <Compile Include="SettingsButton.cs" />
+    <Compile Include="UiRestore.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

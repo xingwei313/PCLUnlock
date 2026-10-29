@@ -31,6 +31,10 @@ namespace PCLUnlock
                 HookCompDetail.Install();
                 stage = "设置页";
                 SettingsButton.Install();
+                stage = "界面";
+                UiRestore.Install();
+                stage = "更新提示";
+                HookUpdateHint.Install();
                 LogBuffer.Write("加载完成");
                 return 0;
             }
